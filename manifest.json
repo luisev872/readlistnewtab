@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Lev's New Tab",
+    "description": "A newtab for Chrome, with your open tabs and reading list",
+    "version": "0.0.1",
+    "action": {
+        "default_title": "Add to Reading List"
+    },
+    "permissions": [
+        "readingList"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons": {},
+    "background": {
+        "service_worker": "background.js"
+    }
+}
